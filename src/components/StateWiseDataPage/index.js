@@ -409,7 +409,6 @@ class StateWiseDataPage extends Component {
             <p className="testNo">{stateData.total.tested}</p>
           </div>
         </div>
-
         <p className="last-date">{`last update on ${formatedDate}`}</p>
 
         <div className="country-stats">{this.renderCategoryTabs()}</div>

@@ -325,11 +325,8 @@ class Home extends Component {
         className="state-wise-stats-container"
         testid="stateWiseCovidDataTable"
       >
-        <div
-          className="state-wise-states-table"
-          testid="stateWiseCovidDataTable"
-        >
-          <div className="table-header" testid="stateWiseCovidDataTable">
+        <div className="state-wise-states-table">
+          <div className="table-header">
             <div className="state-name-heading">
               <p className="table-header-title ">States/UT</p>
               <button
